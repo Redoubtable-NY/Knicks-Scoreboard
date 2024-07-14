@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "Timer";
+    src: url("timer-font/CursedTimerUlil.woff");
+}
+
+#logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+#logo img {
+    margin-top: 32px;
+    width: 132px;
+}
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+}
+
+.newPoints button {
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    background: transparent;
+    font-family: Timer, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    margin-right: 8px;
+}
+
+.score {
+    width: 155px;
+    font-family: Timer, sans-serif;
+    height: 120px;
+    border-radius: 5px;
+    opacity: 0px;
+    background: #000;
+    margin-bottom: 24px;
+}
+
+.score p{
+    font-size: 90px;
+    line-height: 120px;
+    margin: 0 auto;
+    color: #F94F6D;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    margin-bottom: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #eee;
+    text-align: center;
+}
+
+.resetContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+}
+
+#reset {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: 200;
+    background: transparent;
+    border: 1px solid #F55E00;
+    padding: 8px 16px;
+    color: #F55E00;
+}
